@@ -13,4 +13,5 @@
     "start": "node scraper.js"
   },
   "author": "Shai Windsor",
+  "license": "Unlicense"
 }
