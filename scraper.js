@@ -84,7 +84,7 @@ const finder = new Crawler({
       logError('404 - failed to connect to http://shirts4mike.com.');
     } else {
       const imgUrl = res.$('.shirt-picture img').attr('src');
-      const titles = ['Title', 'Price', 'Image Url', 'Url', 'Time'];
+      const titles = ['Title', 'Price', 'ImageURL', 'URL', 'Time'];
 
       // Creates a list of the shirt website's info,
       // and puts it in the "shirts" list
